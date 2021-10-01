@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タスク管理アプリ | XSS未対策</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="content">
+  <div class="red">（注）名前もしくは詳細入力欄にスクリプトを埋め込むと、XSS攻撃が可能。</div>
+  <h2>入力フォーム</h2>
+  <br>
+  <form method="post" action="add.php">
+    <div>
+      <h4>タスク名</h4>
+      <input class="form" type="text" name="title" required>
+    </div>
+    <br>
+    <div>
+      <h4>詳細</h4>
+      <textarea class="form" name="detail" cols="30" rows="5"></textarea>
+    </div>
+    <br>
+    <input class="reg_button" type="submit" value="登録">
+  </form>
+</body>
+</html>

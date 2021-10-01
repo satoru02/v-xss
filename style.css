@@ -1,0 +1,58 @@
+button {
+  background-color: #f72585;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #f72585;
+}
+
+button:hover {
+  background-color: white;
+  color: #f72585;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+  border: 1px solid #f72585;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.red {
+  color: red;
+}
+
+.title {
+  padding-right: 80px;
+  width: 225px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task_list {
+  padding-right: 175px;
+}
+
+.form {
+  border-radius: 3px;
+  border: 1px solid #222222;
+  width: 450px;
+  padding: 7px 5px;
+  line-height: 10px;
+}
+
+.reg_button {
+  background-color: #f72585;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid #f72585;
+}
